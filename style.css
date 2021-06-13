@@ -243,3 +243,21 @@ ul li.playing{
   pointer-events: none;
   color: var(--violet);
 }
+
+.download_link
+{
+  position: relative;
+}
+
+.download_link a
+{
+  position: absolute;
+  right: 550px;
+  top: -260px;
+  color: black;
+  text-decoration: none;
+}
+.download_link img
+{
+  margin-top: 20px;
+}
